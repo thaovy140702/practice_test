@@ -20,13 +20,13 @@
   <body>
     <div class="container">
       <header class="header">
-        <div class="header__wrapper"><a class="header__logo" href="/">Furniro<img src="./img/top_logo.png" alt="Furniro logo"></a>
+        <div class="header__wrapper"><a class="header__logo" href="/">Furniro<img src="/img/top_logo.png" alt="Furniro logo" width="50" height="32"></a>
           <nav>
             <ul> 
-              <li class="header__link">Home</li>
-              <li class="header__link">Shop</li>
-              <li class="header__link">About</li>
-              <li class="header__link">Contact</li>
+              <li><a class="header__link" href="/">Home</a></li>
+              <li><a class="header__link" href="/shop/">Shop</a></li>
+              <li><a class="header__link" href="/about/">About</a></li>
+              <li><a class="header__link" href="/contact/">Contact</a></li>
             </ul>
           </nav>
           <div class="header__action">
@@ -47,7 +47,41 @@
       </header>
       <main>
       </main>
-      <footer></footer>
+      <footer class="footer"> 
+        <div class="footer__wrapper">
+          <div class="footer__content">
+            <div class="footer__column"> 
+              <h2 class="footer_brand">Funiro.</h2>
+              <address>400 University Drive Suite 200 Coral Gables, FL 33134 USA</address>
+            </div>
+            <div class="footer__column">
+              <h3>Links</h3>
+              <ul> 
+                <li> <a class="footer__link" href="/">Home</a></li>
+                <li> <a class="footer__link" href="/shop/">Shop</a></li>
+                <li> <a class="footer__link" href="/about/">About</a></li>
+                <li> <a class="footer__link" href="/contact/">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer__column">
+              <h3>Help</h3>
+              <ul> 
+                <li> <a class="footer__link" href="#">Payment Options</a></li>
+                <li> <a class="footer__link" href="#">Returns</a></li>
+                <li> <a class="footer__link" href="#">Privacy Policies</a></li>
+              </ul>
+            </div>
+            <div class="footer__column">
+              <h3>Newsletter</h3>
+              <form class="footer__form">
+                <input class="footer__form-email" type="email" placeholder="Enter Your Email Address">
+                <button class="footer__form-submit" type="submit">subscribe</button>
+              </form>
+            </div>
+          </div>
+          <div class="footer__bottom"><small class="footer_copyright">2023 furino. All rights reverved</small></div>
+        </div>
+      </footer>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
